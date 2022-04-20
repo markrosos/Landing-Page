@@ -1,5 +1,5 @@
 * {
-    color: lightgray;
+    color: #dcd2c8;
 }
 
 @font-face {
@@ -15,7 +15,7 @@ body {
     display: flex;
     font-family: "quake1normal", "Roboto", sans-serif;
     flex-direction: column;
-    background-color: #3d2c17;
+    background-color: #271b0f;
     margin: 0px;
     padding: 0px;
     min-height: 100%;
@@ -24,6 +24,7 @@ body {
 .header {
     display: flex;
     align-items: center;
+    font-size: 30px;
 }
 
 ul {
@@ -39,13 +40,14 @@ ul {
 
 .banner {
     height: 400px;
+    background-color: #271b0f;
 }
 
 .banner,
 .left,
 .right {
     display: flex;
-    background-color: #505050;
+    /* background-color: #505050; */
     justify-content: center;
     /* align-content: center; */
     align-items: center;
@@ -67,8 +69,8 @@ ul {
     color: rgb(0, 0, 0);
     padding: 10px 10px;
     font-size: 13px;
-    background-color: rgb(238, 237, 226);
-    border: 1px solid lightslategray;
+    background-color: #dcd2c8;
+    border: 1px solid #5d544b;
     transition-duration: 100ms;
     border-radius: 10px;
     padding: 15px;
@@ -76,7 +78,7 @@ ul {
 
 .button:hover,
 .button2:hover {
-    background-color: darkgray;
+    background-color: #aba39a;
 }
 
 .button span,
@@ -110,7 +112,8 @@ ul {
 }
 
 .right img {
-    max-width: 80%;
+    max-width: 90%;
+    border-radius: 5px;
 }
 
 .middle {
@@ -119,6 +122,7 @@ ul {
     background-color: black;
     justify-content: center;
     align-items: center;
+    background: #372800;
 }
 
 .middle-items {
@@ -129,20 +133,24 @@ ul {
     align-items: center;
     flex-wrap: wrap;
     min-width: 600px;
+    background: #372800;
+    text-align: center;
 }
 
 .info {
     display: flex;
     flex-wrap: wrap;
-    width: 200px;
+    width: 210px;
     justify-content: center;
-    gap: 25px;
-    padding: 1em;
+    gap: 20px;
+    padding: 2em;
 }
 
 
 .info img {
     max-width: 200px;
+    border: 4px solid #4e4500;
+    border-radius: 10px;
 }
 
 .third-info {
@@ -179,6 +187,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #372800;
 }
 
 .container {
@@ -187,10 +196,11 @@ ul {
     width: 700px;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background: #513f09;
     padding: 10px 36px;
     border-radius: 10px;
     gap: 3em;
+    
 }
 
 p {
@@ -204,7 +214,7 @@ h2 {
 
 .footer {
     display: flex;
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
     justify-content: center;
     align-items: center;
     height: 60px;
